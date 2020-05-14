@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 
-export const LogoLong = ({ black }) => (
-  <svg height="272px" version="1.1" viewBox="0 0 764 272" width="764px">
+export const LongLogo = ({ black, height, width }) => (
+  <svg height={height} version="1.1" viewBox="0 0 764 272" width={width}>
     <title>logo</title>
     <desc>Created with Sketch.</desc>
     <g fill="none" fillRule="evenodd" id="Page-1" stroke="none" strokeWidth="1">

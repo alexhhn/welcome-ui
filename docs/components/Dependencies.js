@@ -1,9 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-
-import { Tag } from '../packages/Tag/index'
-import { Link } from '../packages/Link/index'
-import { Button } from '../packages/Button/index'
+import { Tag } from '@welcome-ui/Tag'
+import { Link } from '@welcome-ui/Link'
+import { Button } from '@welcome-ui/Button'
 
 export const Dependencies = ({ dependencies }) => {
   if (!dependencies) {

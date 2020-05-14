@@ -1,11 +1,9 @@
 import styled from '@xstyled/styled-components'
-import { cardStyles } from '@welcome-ui/utils'
 
 export const Pre = styled.pre`
-  ${cardStyles};
-  padding: lg;
   font-size: body3;
   line-height: h4;
+  font-family: texts; /* stylelint-disable-line */
 
   > div {
     width: 100%;

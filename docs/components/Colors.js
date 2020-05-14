@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 import { withTheme } from '@xstyled/styled-components'
-
-import { Box } from '../packages/Box/index'
+import { Box } from '@welcome-ui/Box'
 
 const Wrapper = ({ name, theme, withBorder }) => {
   const colors = theme.colors[name]

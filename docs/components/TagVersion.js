@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-
-import { Tag } from '../packages/Tag/index'
+import { Tag } from '@welcome-ui/Tag'
 
 export const TagVersion = ({ href, name, version, ...rest }) => (
   <div>
